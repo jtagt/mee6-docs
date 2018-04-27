@@ -28,3 +28,19 @@ Then, we need `pip` to install the necessary packages for the website script and
 Then we will do the same command, but for the chat script:
 
 `cd ../chat-bot && pip3 install -r requirements.txt`
+
+# Automatic Installation
+Download `install.sh` from this repo.
+
+Use `chmod` to make the installer executable:
+
+
+`chmod 755 install.sh`
+
+Then run it:
+
+`./install.sh`
+
+You can then remove it with:
+
+`rm install.sh`.
