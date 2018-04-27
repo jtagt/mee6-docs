@@ -1,1 +1,1 @@
-# mee6-docs
+# Mee6 Selfhosting Guide
