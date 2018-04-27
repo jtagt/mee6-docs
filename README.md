@@ -106,3 +106,33 @@ To make it accessable to the outside world you must port forward. Visit this web
 https://portforward.com/router.htm
 
 If you have a domain you can use Cloudflare, point your domain at your IP address, and update the config file to host the dashboard on a public domain!
+
+# Running Mee6
+
+To smooth out the booting process, reboot your machine at this point. If you don't, the aliases set in `.bashrc` will not work, and the scripts will error out. So reboot.
+
+Login as `root` on boot:
+sudo -i
+
+Then start the bot, go to your mee6 repo location:
+
+`cd ~/mee6/chat-bot/ && python3 bot.py`
+
+Open another instance of Terminal (login as root there too), navigate to the mee6 folder, and execute this python file to start the website:
+
+`cd ~/mee6/website/ && python3 app.py`
+
+Do note that you may have to reboot after closing the website so that it works again, 
+as python does not automatically unbind from the port.
+
+# Running Mee6 (on a command line interface)
+**Chat-Bot**
+Run `cd ~/mee6/chat-bot/ && python3 bot.py`, then `bg` and it should start running in the background.
+**Website**
+Run `cd ~/mee6/website/ && python3 app.py`, then `bg` and it should start running in the background.
+
+# Conclusion
+
+Sadly, I am unable to find enough source code to make everything work, but I do my best!
+If you find any issues please feel free to open an issue!
+PLEASE NOTE: Not all features may work as this repo is in the process of being updated.
