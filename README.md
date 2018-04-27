@@ -6,7 +6,7 @@ We will be using Ubuntu 14 for this tutorial, but linux systems that use `apt` p
 
 There's nothing wrong with using a virtual machine.
 
-You can install automatically or manually, see below.
+You can install [automatic](https://jtagt.github.io/mee6-docs#automatic-installation) or [manually](https://jtagt.github.io/mee6-docs#manual-installation), see below.
 # Manual installation
 
 Install python3, pip3, redis, and nginx:
