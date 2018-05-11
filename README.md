@@ -60,7 +60,7 @@ export GOOGLE_API_KEY=a youtube api key
 export SECRET_KEY=1111 ***Change to a longer code, preferably longer than this***
 ```
 If you are fine with not having some features work, simply remove the variable value and leave the empty assignment.
-
+***REBOOT AFTER SAVED***
 Now do:
 
 `cd ~ && nano .bashrc`
